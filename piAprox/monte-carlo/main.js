@@ -44,6 +44,8 @@ function draw() {
     if (diff < recordDiff) {
       recordDiff = diff;
       recordPI = pi;
+      resultP.html(`Approximated Value: ${recordPI}`);
+    } else {
       resultP.html(`Approximated Value: ${pi}`);
     }
   }
