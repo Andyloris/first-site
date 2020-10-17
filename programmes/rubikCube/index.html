@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>télecharger</title>
+</head>
+
+<body>
+    <iframe id="download" style="display:none;"></iframe>
+    <button
+        onclick="function Download(url) {document.getElementById('download').src = url} Download('./application.windows64/RubixCube.exe')">version
+        windows 64</button>
+    <button
+        onclick="function Download(url) {document.getElementById('download').src = url} Download('./application.windows32/RubixCube.exe')">version
+        windows 32</button>
+</body>
+
+</html>
