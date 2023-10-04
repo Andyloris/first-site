@@ -1,13 +1,12 @@
 var pi = 4;
 var resultP = document.getElementById("val");
 var approxP = document.getElementById("diff");
-var piComp = 3.1415926535897932;
+var piComp = 3.141592653589793238462643383279;
 var diff = 0;
 var iteration = 0;
 var den = 1;
 var frameRate = 60;
-//resultP = createDiv("Valeur Approximée: ");
-//approxP = createDiv("Différence: ");
+
 function main() {
     den = iteration * 2 + 3;
     if(iteration % 2 == 0) {
