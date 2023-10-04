@@ -9,7 +9,7 @@ let resultP;
 
 function setup() {
   createCanvas(802, 802);
-  resultP = createP('Approximated Value:');
+  resultP = createP('Valeur approximée:');
   background(0);
   translate(width / 2, height / 2);
   stroke(255);
@@ -44,9 +44,9 @@ function draw() {
     if (diff < recordDiff) {
       recordDiff = diff;
       recordPI = pi;
-      resultP.html(`Approximated Value: ${recordPI}`);
+      resultP.html(`Valeur approximée: ${recordPI}`);
     } else {
-      resultP.html(`Approximated Value: ${pi}`);
+      resultP.html(`Valeur approximée: ${pi}`);
     }
   }
 }
