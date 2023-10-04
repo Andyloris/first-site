@@ -71,6 +71,6 @@ function draw() {
         }
     }
 
-    resultP.html(`therme n°${term} de la suite de fibonnacci: ` + printedResult);
+    resultP.html(`Terme n°${term} de la suite de fibonnacci: ` + printedResult);
     //console.log(printedResult + " " + fibo);
 }
