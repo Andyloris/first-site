@@ -14,7 +14,7 @@ function main() {
     } else {
         pi += (4 / den);
     }
-    resultP.innerHTML = "Valeur Aproximée: " + pi;
+    resultP.innerHTML = "Valeur Approximée: " + pi;
     diff = pi - piComp;
     approxP.innerHTML = "Différence: " + diff;
     iteration++;
